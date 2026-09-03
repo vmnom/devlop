@@ -1,17 +1,8 @@
 #include <vmnomx.h>
 
-int __init()
-{
-	connect("/dev/db");
+int main(int argc, char *argv[]) {
 
-	return 0;
-}
-
-int main(int argc, char *argv[])
-{
-	__init();
-
-	printf("xyz2");
+	__initcpio("/etc/db");
 
 	return EXIT_SUCCESS;
 }

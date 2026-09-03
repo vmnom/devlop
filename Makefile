@@ -1,7 +1,6 @@
-# /*
-# * Makefile - minimal
-# *
-# */
+CC       := gcc 
+BINNARY  := vmnomx
+EXTERNAL := -lsqlite3
 
-x86_64:
-	gcc -lsqlite3 -Iframework *.c -o /usr/local/bin/vmnomx
+$(BINNARY):
+	$(CC) $(EXTERNAL) -Iframework $(find . -maxdepth 3 -name "*.c") -o /usr/local/bin/$(BINNARY)
