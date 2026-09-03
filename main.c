@@ -2,7 +2,13 @@
 
 int main(int argc, char *argv[]) {
 
-	__initcpio("/etc/db");
+	sqlite3 *db;
+
+	{
+		open(db, "/etc/db");
+	}
+
+	printf("end main");
 
 	return EXIT_SUCCESS;
 }

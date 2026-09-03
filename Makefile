@@ -1,6 +1,16 @@
-CC       := gcc 
-BINNARY  := vmnomx
-EXTERNAL := -lsqlite3
+CC         := gcc 
+EXTERNAL   := -lsqlite3
+FRAMEWORK  := find . -maxdepth 2 -name "*.c"
 
-$(BINNARY):
-	$(CC) $(EXTERNAL) -Iframework $(find . -maxdepth 3 -name "*.c") -o /usr/local/bin/$(BINNARY)
+vmnomx:
+	@$(CC) $(EXTERNAL) -Iframework $(shell $(FRAMEWORK)) -o /usr/local/bin/vmnomx
+	@vmnomx
+	@echo
+	@ctags -R .
+
+test:
+	$(FRAMEWORK)
+
+config:
+	@echo alias l=make
+	@echo alias ll=clear

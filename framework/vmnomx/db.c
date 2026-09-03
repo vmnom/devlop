@@ -1,6 +1,8 @@
-void __initcpio(char* location);
+#include <vmnomx.h>
+
+void open(sqlite3 *db, char* file);
 {
-	printf("db location: %s \n", location);
+	printf("open database ready");
 
 	return EXIT_SUCCESS;
 }
