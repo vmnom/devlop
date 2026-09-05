@@ -1,0 +1,17 @@
+{
+    "version": "1.0.0",
+    
+    "use":{
+        "google": {
+            
+            "email": "elmehdiabdi@icloud.com",
+            
+            "enable": [
+                { "admob": 0 }
+            ]
+            
+        },
+        
+        "github": {}
+    }
+}
