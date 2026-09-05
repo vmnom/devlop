@@ -1,0 +1,26 @@
+403 Forbidden
+
+You don’t have permission to perform this push.
+
+This repository requires a valid MD5 tag generated using the (*/*sha version] metadata.
+
+### Public-sha:
+
+
+```json
+[
+	{ "version": "1.0.0", "name": "md5" }
+]
+```
+
+# 1.0.0
+
+	- initialize this Git repository.
+
+## 1.0.1-private
+
+	- improve commit and push guidelines.
+	- more*...
+
+powered by [*/*sha version]
+
