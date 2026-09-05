@@ -1,14 +1,3 @@
-403 Forbidden
-
-This repository requires a valid MD5 tag.
-
-### Public-sha:
-
-```json
-[
-	{ "version": "1.0.0", "name": "md5" }
-]
-
 ## 1.1.0-dev
 
 	- improve commit and push guidelines.
@@ -19,5 +8,9 @@ This repository requires a valid MD5 tag.
 
 	- initialize this Git repository.
 
+### Public-sha:
 
-powered by { devlop/docs* }
+```json
+[
+	{ "version": "1.0.0", "name": "md5" }
+]
