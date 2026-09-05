@@ -6,13 +6,12 @@ This repository requires a valid MD5 tag generated using the (*/*sha version] me
 
 ### Public-sha:
 
-
 ```json
 [
 	{ "version": "1.0.0", "name": "md5" }
 ]
 
-# 1.0.0
+### 1.0.0
 
 	- initialize this Git repository.
 
@@ -22,4 +21,3 @@ This repository requires a valid MD5 tag generated using the (*/*sha version] me
 	- more*...
 
 powered by [*/*sha version]
-
