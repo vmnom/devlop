@@ -1,8 +1,6 @@
 403 Forbidden
 
-You don’t have permission to perform this push.
-
-This repository requires a valid MD5 tag generated using the (*/*sha version] metadata.
+This repository requires a valid MD5 tag.
 
 ### Public-sha:
 
