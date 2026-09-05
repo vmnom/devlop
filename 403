@@ -1,10 +1,11 @@
 403 Forbidden
 
-You cannot perform this push.
+You don’t have permission to perform this push.
 
-A valid MD5 hash tag is required in this repository. Create a tag using the required MD5 hash format before pushing.
+This repository requires a valid MD5 hash generated using the (Next-sha version) metadata.
 
-### Metadata:
+### Public-sha:
+
 
 ```json
 [
@@ -14,4 +15,7 @@ A valid MD5 hash tag is required in this repository. Create a tag using the requ
 
 # 1.0.0
 	- documentation README. 
-	- apply md5 version.
+	- apply md5 versibn.
+
+powered by [*/*sha]
+
