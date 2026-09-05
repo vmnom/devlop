@@ -1,1 +1,21 @@
-[403](https://github.com/vmnom/devlop/blob/main/403)
+403 Forbidden
+
+You don’t have permission to perform this push.
+
+This repository requires a valid MD5 hash generated using the (Next-sha version) metadata.
+
+### Public-sha:
+
+
+```json
+[
+	{ "version": "1.0.0", "name": "md5" }
+]
+```
+
+# 1.0.0
+	- documentation README. 
+	- apply md5 versibn.
+
+powered by [*/*sha]
+
