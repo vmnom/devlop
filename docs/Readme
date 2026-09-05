@@ -9,14 +9,15 @@ This repository requires a valid MD5 tag.
 	{ "version": "1.0.0", "name": "md5" }
 ]
 
-### 1.0.0
-
-	- initialize this Git repository.
-
 ## 1.1.0-dev
 
 	- improve commit and push guidelines.
 	- sqlite3 databae easier.
 	- more*...
+
+### 1.0.0
+
+	- initialize this Git repository.
+
 
 powered by { devlop/docs* }
