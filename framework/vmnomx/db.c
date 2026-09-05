@@ -1,8 +1,10 @@
 #include <vmnomx.h>
 
-void open(sqlite3 *db, char* file);
-{
-	printf("open database ready");
+void open(sqlite3 *db, char* file) {
 
-	return EXIT_SUCCESS;
+	sqlite3 *x;
+
+	sqlite3_open(file, &x);
+
+	printf("open database ready");
 }

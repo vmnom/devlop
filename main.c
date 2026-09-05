@@ -4,9 +4,7 @@ int main(int argc, char *argv[]) {
 
 	sqlite3 *db;
 
-	{
-		open(db, "/etc/db");
-	}
+	int rc = sqlite3_open("/etc/db", &db);
 
 	printf("end main");
 

@@ -1,17 +1,26 @@
 {
-    "version": "1.0.0",
-    
-    "use":{
+    "nonce":{
+
+    	"version": "devlop",
+
         "google": {
             
             "email": "elmehdiabdi@icloud.com",
+
+	    "passwd": "********",
             
             "enable": [
+
                 { "admob": 0 }
+
             ]
-            
         },
         
-        "github": {}
-    }
+        "github": {
+		"publish.key": "key"
+	}
+
+    },
+
+    "colorscheme": {}
 }

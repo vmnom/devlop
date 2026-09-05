@@ -1,12 +1,11 @@
 CC         := gcc 
-EXTERNAL   := -lsqlite3
-FRAMEWORK  := find . -maxdepth 2 -name "*.c"
+FRAMEWORK  := find . -maxdepth 3 -name "*.c"
 
 vmnomx:
-	@$(CC) $(EXTERNAL) -Iframework $(shell $(FRAMEWORK)) -o /usr/local/bin/vmnomx
+	@ctags -R .
+	gcc -Iframework $(shell $(FRAMEWORK)) -o /usr/local/bin/vmnomx -lsqlite3
 	@vmnomx
 	@echo
-	@ctags -R .
 
 test:
 	$(FRAMEWORK)

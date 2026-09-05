@@ -5,6 +5,6 @@
 #include <stdlib.h>
 #include <sqlite3.h>
 
-int open(sqlite3*, char*);
+void open(sqlite3*, char*);
 
 #endif
