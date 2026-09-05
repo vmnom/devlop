@@ -1,18 +1,19 @@
 #include <vmnomx>
 
-struct Product {
+Router http(sqlite3 *db, Response res) {
 
-	char* id;
-	char* img;
-	char* title;
-	char* description;
+	Response index(Request req)
+	{
+		return view(200, "products");
+	}
 
-	QUANTITY instock;
+	Router routes;
 
-	CONVERSATION reviews;
+	{
+		routes
+		
+		.add("/", index);
+	}
 
-	Product related[] ;
-}
-
-void map(void args) {
+	return routes;
 }
